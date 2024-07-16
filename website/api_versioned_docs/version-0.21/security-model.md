@@ -82,7 +82,7 @@ We estimate that it would cost over 400 billion USD of computational resources t
 These estimates are based on the approach used in [this article by Justin Thaler].
 The napkin math here is as follows:
 
-- Thaler estimated $1.6 million to launch a viable attack against an 80 bit STARK system.
+- Thaler estimated \$1.6 million to launch a viable attack against an 80 bit STARK system.
 - 98 bits is $2^{18}$ times more secure than 80 bits.
 
 The analysis for bits of security for the RISC-V and Recursion Prover can be found in the [security calculator].
@@ -100,18 +100,33 @@ This primitive has been heavily battle-tested: it's part of the core cryptograph
 For a detailed discussion of the security of BN254, we refer readers to the discussion on this [GitHub issue from Zcash].
 
 [lift]: https://docs.rs/risc0-zkvm/0.21/risc0_zkvm/struct.ApiClient.html#method.lift
+
 [join]: https://docs.rs/risc0-zkvm/0.21/risc0_zkvm/struct.ApiClient.html#method.join
+
 [resolve]: https://docs.rs/risc0-zkvm/0.21/risc0_zkvm/struct.ApiClient.html#method.resolve
+
 [control ID]: /terminology#control-id
+
 [control root]: /terminology#control-root
+
 [execution trace]: /terminology#execution-trace
+
 [ethSTARK documentation]: https://eprint.iacr.org/2021/582
+
 [deterministically]: /terminology#deterministic-builds
+
 [GitHub issue from Zcash]: https://github.com/zcash/zcash/issues/714
+
 [receipt claim]: /terminology#receipt-claim
+
 [RISC Zero zkVM: Scalable, Transparent Arguments of RISC-V Integrity]: pathname:///proof-system-in-detail.pdf
+
 [RISC Zero zkVM]: ./zkvm
+
 [security calculator]: https://github.com/risc0/risc0/pull/1661
+
 [this article by Justin Thaler]: https://a16zcrypto.com/posts/article/snark-security-and-performance/
+
 [bits]: https://a16zcrypto.com/posts/article/snark-security-and-performance/
+
 [Verifier Contract]: ./blockchain-integration/contracts/verifier.md

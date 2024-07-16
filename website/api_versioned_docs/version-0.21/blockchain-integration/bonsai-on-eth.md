@@ -25,9 +25,15 @@ Below is a diagram and overview of a typical application with RISC Zero on Ether
 4. Your app contract calls the [RISC Zero verifier contract][verifier-contract] to validate the proof. If the verification is successful, the journal is deemed trustworthy and can be safely used.
 
 [article-coprocessor]: https://www.risczero.com/news/a-guide-to-zk-coprocessors-for-scalability
+
 [docs-zkvm]: ../zkvm/zkvm_overview.md
+
 [foundry-template]: https://github.com/risc0/bonsai-foundry-template
+
 [term-journal]: /terminology#journal
+
 [term-snark]: /terminology#snark
+
 [term-stark]: /terminology#stark
+
 [verifier-contract]: ./contracts/verifier.md

@@ -60,15 +60,27 @@ is:
 `let bytes = bincode::serialize(&receipt);`
 
 [execution]: /terminology#execution-trace
+
 [guest program]: /terminology#guest-program
+
 [Image ID]: /terminology#image-id
+
 [journal]: /terminology#journal
+
 [receipt]: /terminology#receipt
+
 [receipt.verify()]: https://docs.rs/risc0-zkvm/1.0/risc0_zkvm/struct.Receipt.html#method.verify
+
 [receipt.journal]: https://docs.rs/risc0-zkvm/1.0/risc0_zkvm/struct.Receipt.html#structfield.journal
+
 [seal]: /terminology#seal
+
 [serde]: https://crates.io/crates/serde
+
 [validity proof]: /terminology#validity-proof
+
 [verify]: /terminology#verify
+
 [quickstart]: ./quickstart.md
+
 [zkvm]: ./zkvm_overview.md

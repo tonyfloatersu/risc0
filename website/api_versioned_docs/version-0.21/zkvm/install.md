@@ -47,5 +47,7 @@ To update your installation:
 2. Run `cargo risczero install` to update the RISC Zero toolchain.
 
 [cargo-risczero]: https://crates.io/crates/cargo-risczero
+
 [install-rust]: https://doc.rust-lang.org/cargo/getting-started/installation.html
+
 [rustup]: https://rustup.rs/

@@ -25,8 +25,8 @@ If you need to install Rust or encounter problems, take a look at our [full inst
 
 ## 2. Initialize a New Project
 
-Once you've installed the toolchain, you can initialize a new project using the [starter template] by running:
-[starter template]: https://github.com/risc0/risc0/tree/release-0.18/templates/rust-starter
+Once you've installed the toolchain, you can initialize a new project using the \[starter template] by running:
+\[starter template]: https://github.com/risc0/risc0/tree/release-0.18/templates/rust-starter
 
 ```bash
 cargo risczero new my_project
@@ -70,13 +70,23 @@ Additional information is available in the [starter template](https://github.com
 Options such as GPU acceleration and skipping the proof generation are documented in the [feature flags].
 
 [zkVM]: ../zkvm/
+
 [guest program]: /terminology#guest-program
+
 [Bonsai]: ../bonsai/bonsai-overview.md
+
 [install]: ./install.md
+
 [feature flags]: https://github.com/risc0/risc0#feature-flags
+
 [zkVM demo applications]: https://github.com/risc0/risc0/tree/release-0.18/examples/
+
 [cargo risczero]: https://docs.rs/cargo-risczero
+
 [Hello World tutorial]: https://github.com/risc0/risc0/tree/release-0.18/examples/hello-world/tutorial.md
+
 [demo applications]: https://github.com/risc0/risc0/tree/release-0.18/examples
+
 [Bonsai Quick Start]: ../../bonsai/quickstart
+
 [request access]: https://bonsai.xyz/apply

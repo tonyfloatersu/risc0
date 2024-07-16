@@ -4,7 +4,7 @@ Verifiable computation is a game changer for the resilience and economics of
 operating the computing infrastructure we all rely on. It creates a number of
 emergent use cases which we are excited to enable. Key among these are:
 
-- [ZK Coprocessors][zk-coprocessor], which enable blockchain applications to reduce gas costs by
+- \[ZK Coprocessors]\[zk-coprocessor], which enable blockchain applications to reduce gas costs by
   moving the expensive part of their application logic off-chain
 - Optimistic rollups with ZK fraud proofs, including [our work with Optimism][optimism]
 
@@ -48,16 +48,29 @@ In addition to being far easier to build on, we're also delivering on
 Check out our [Getting Started] page.
 
 [Bonsai Pay]: https://risczero.com/news/bonsai-pay
+
 [chess]: https://github.com/risc0/risc0/tree/release-1.0/examples/chess
+
 [continuations]: https://risczero.com/news/continuations
+
 [crate-validation]: https://reports.risczero.com/crates-validation
+
 [ecdsa]: https://github.com/risc0/risc0/tree/release-1.0/examples/ecdsa
+
 [Getting Started]: ./getting-started.md
+
 [JSON]: https://github.com/risc0/risc0/tree/release-1.0/examples/json
+
 [optimism]: https://www.theblock.co/post/240929/optimism-zk-proof-proposals
+
 [performance]: ./zkvm/benchmarks.md
+
 [waldo]: https://risczero.com/news/waldo
+
 [Zeth]: https://risczero.com/news/zeth-release
+
 [zk-coprocessors]: https://www.risczero.com/blog/a-guide-to-zk-coprocessors-for-scalability
+
 [zkpoex]: https://risczero.com/news/zkpoex
+
 [zkVM]: ./zkvm/zkvm_overview.md

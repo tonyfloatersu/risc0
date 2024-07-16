@@ -55,8 +55,13 @@ To update your installation:
 After you update your installation, be sure to update your project's RISC Zero crates. To do this, you must update all RISC Zero dependencies in your project's host and guest `Cargo.toml` files. In most projects, this is done by updating the host and guest `risc0-zkvm` crate and the `risc0-build` build dependency. They should be updated to use the version number displayed by `cargo risczero --version`.
 
 [cargo-risczero]: https://crates.io/crates/cargo-risczero
+
 [install-rust]: https://doc.rust-lang.org/cargo/getting-started/installation.html
+
 [release tag]: https://github.com/risc0/risc0/releases
+
 [Rust]: https://www.rust-lang.org/
+
 [rustup]: https://rustup.rs/
+
 [rzup-src]: https://github.com/risc0/risc0/tree/release-1.0/rzup

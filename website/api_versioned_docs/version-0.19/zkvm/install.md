@@ -9,6 +9,7 @@ These instructions tell you how to install (or update) RISC Zero tools so you ca
 The RISC Zero zkVM requires Rust, so start by [installing Rust and `rustup`][install-rust] if you don't already have it. Please note that you will need to follow the recommended Rust installation instructions that use [rustup] rather than any of the alternative Rust installation options, as RISC Zero depends on the [rustup] tool specifically.
 
 [install-rust]: https://doc.rust-lang.org/cargo/getting-started/installation.html
+
 [rustup]: https://rustup.rs/
 
 ## Install

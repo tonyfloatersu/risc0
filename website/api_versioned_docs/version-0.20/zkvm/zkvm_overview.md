@@ -99,32 +99,61 @@ _Curious about Zeth?_<br/>
 Read the [article][zeth].
 
 [alloy]: https://github.com/alloy-rs
+
 [benchmarks]: ./benchmarks.md
+
 [Bonsai]: ../bonsai/bonsai-overview.md
+
 [cargo]: https://doc.rust-lang.org/cargo/index.html
+
 [chess]: https://github.com/risc0/risc0/tree/release-0.20/examples/chess#zk-checkmate
+
 [continuations]: https://www.risczero.com/news/continuations
+
 [ethers]: https://github.com/ethers-io/ethers.js
+
 [examples]: ./examples.md
+
 [imageID]: /terminology#image-id
+
 [receipt]: ./receipts.md
+
 [ELF binary]: /terminology#elf-binary
+
 [execution trace]: /terminology#execution-trace
+
 [executor]: /terminology#executor
+
 [feature flags]: https://github.com/risc0/risc0#feature-flags
+
 [guest program]: ./guest-code-101.md
+
 [host]: /terminology#host-program
+
 [host program]: ./host-code-101.md
+
 [journal]: /terminology#journal
+
 [json]: https://github.com/risc0/risc0/tree/release-0.20/examples/json
+
 [prove]: /terminology#validity-proof
+
 [proofs]: /terminology#validity-proof
+
 [prover]: /terminology#prover
+
 [quickstart]: ./quickstart.md
+
 [revm]: https://github.com/bluealloy/revm
+
 [segments]: /terminology#segment
+
 [session]: /terminology#session
+
 [verify]: /terminology#verify
+
 [waldo]: https://www.risczero.com/news/waldo
+
 [zeth]: https://risczero.com/news/zeth-release
+
 [zkVM]: /terminology#zero-knowledge-virtual-machine-zkvm

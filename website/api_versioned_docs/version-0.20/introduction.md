@@ -124,24 +124,45 @@ Follow us on [Twitter] and [YouTube], and [sign up for our mailing
 list][mailing-list] to get our latest announcements.
 
 [Bonsai]: ./bonsai/bonsai-overview.md
+
 [chess]: https://github.com/risc0/risc0/tree/release-0.20/examples/chess
+
 [continuations]: https://risczero.com/news/continuations
+
 [crate-validation]: https://reports.risczero.com/crates-validation
+
 [discord]: https://discord.gg/risczero
+
 [ecdsa]: https://github.com/risc0/risc0/tree/release-0.20/examples/ecdsa
+
 [JSON]: https://github.com/risc0/risc0/tree/release-0.20/examples/json
+
 [mailing-list]: https://fmree464va4.typeform.com/to/X3KJB85v
+
 [optimism]: https://www.theblock.co/post/240929/optimism-zk-proof-proposals
+
 [performance]: ./zkvm/benchmarks.md
+
 [proof-system]: /proof-system
+
 [RISC Zero]: https://risczero.com
+
 [risc0-repo]: https://github.com/risc0/risc0
+
 [risc0-zkvm]: https://docs.rs/risc0-zkvm
+
 [rust-libraries]: https://github.com/risc0/risc0#rust-libraries
+
 [startup]: https://risczero.com/news/series-a
+
 [twitter]: https://twitter.com/risczero
+
 [waldo]: https://risczero.com/news/waldo
+
 [YouTube]: https://www.youtube.com/@risczero
+
 [zk coprocessors]: https://www.risczero.com/blog/a-guide-to-zk-coprocessors-for-scalability
+
 [zkpoex]: https://risczero.com/news/zkpoex
+
 [zkVM]: ./zkvm/zkvm_overview.md

@@ -53,5 +53,7 @@ flowchart TD
 ```
 
 [zkvm-quickstart]: ./zkvm/quickstart.md
+
 [bonsai-quickstart]: ./generating-proofs/proving-options.md
+
 [bonsai-on-eth]: ./blockchain-integration/bonsai-on-eth.md
