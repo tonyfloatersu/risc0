@@ -54,8 +54,8 @@ Please let us know via a [`GitHub issue`](https://github.com/risc0/risc0/issues)
 
 We typically organize reference docs according to the following sections; we use `About NTTs` as a template.
 
-> **Topic**
->
+### Topic
+
 > _Topic is used to \[concise explanation of relevance to RISC Zero]_
 >
 > - Documentation

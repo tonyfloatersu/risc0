@@ -111,7 +111,7 @@ Knowing these statistics is useful for estimating the cost of your application
 before submitting real workloads to Bonsai, as the cost of proof generation is
 proportional to the number of cycles and segments used.
 
-> **Congratulations!**
+> ### Congratulations!
 >
 > _That's all it takes to build and run a minimal RISC Zero application._
 
@@ -121,7 +121,6 @@ proportional to the number of cycles and segments used.
 [guest]: /terminology#guest-program
 [hello-world]: ./tutorials/hello-world.md
 [host]: /terminology#host-program
-[install Rust]: https://doc.rust-lang.org/cargo/getting-started/installation.html
 [journal]: /terminology#journal
 [prover]: /terminology#prover
 [receipt]: /terminology#receipt

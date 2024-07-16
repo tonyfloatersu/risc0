@@ -70,6 +70,8 @@ We set the Control columns to 0 for these random noise rows, in order to turn of
 Let's remove the `rule-checking columns` for a minute and turn our attention toward encoding our Trace data in terms of polynomials.
 Throughout these lessons, all of the arithmetic takes place in $\mathbb{F}_{97}$.
 
+<!--lint disable-->
+
 _From here on, the lessons assume some familiarity with finite fields. If finite fields are foreign to you, fear not!
 This [finite fields primer](../reference-docs/about-finite-fields.md) covers just enough to make sense of RISC Zero's use of finite fields._
 
