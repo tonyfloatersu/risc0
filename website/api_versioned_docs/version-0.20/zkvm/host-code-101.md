@@ -80,47 +80,25 @@ If you run into problems, don't be a stranger! You can file an issue on \[these
 docs] or the [examples], and we're happy to answer questions on [Discord].
 
 [Bonsai]: ../bonsai/bonsai-overview.md
-
 [Discord]: https://discord.gg/risczero
-
 [examples]: ./examples.md
-
 [execute]: /terminology#execute
-
 [executor]: /terminology#executor
-
 [executor-env]: https://docs.rs/risc0-zkvm/0.20/risc0_zkvm/struct.ExecutorEnv.html
-
 [from-rust-to-receipt]: /diagrams/from-rust-to-receipt.png
-
 [guest]: /terminology#guest
-
 [guest program]: /terminology#guest-program
-
 [host]: /terminology#host
-
 [journal]: /terminology#journal
-
 [JSON]: https://github.com/risc0/risc0/blob/release-0.20/examples/json/src/main.rs
-
 [method]: /terminology#method
-
 [prove]: /terminology#prove
-
 [Prover]: /terminology#prover
-
 [quickstart]: ./quickstart.md
-
 [receipt]: /terminology#receipt
-
 [Receipts]: ./receipts.md
-
 [receipt-verify]: https://docs.rs/risc0-zkvm/0.20/risc0_zkvm/struct.Receipt.html#method.verify
-
 [risc0-zkvm]: https://docs.rs/risc0-zkvm
-
 [tutorial]: ./tutorials/hello-world.md
-
 [verifies]: /terminology#verify
-
 [zkVM]: ./zkvm_overview.md

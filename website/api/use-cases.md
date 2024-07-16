@@ -48,29 +48,16 @@ In addition to being far easier to build on, we're also delivering on
 Check out our [Getting Started] page.
 
 [Bonsai Pay]: https://risczero.com/news/bonsai-pay
-
 [chess]: https://github.com/risc0/risc0/tree/main/examples/chess
-
 [continuations]: https://risczero.com/news/continuations
-
 [crate-validation]: https://reports.risczero.com/crates-validation
-
 [ecdsa]: https://github.com/risc0/risc0/tree/main/examples/ecdsa
-
 [Getting Started]: ./getting-started.md
-
 [JSON]: https://github.com/risc0/risc0/tree/main/examples/json
-
 [optimism]: https://www.theblock.co/post/240929/optimism-zk-proof-proposals
-
 [performance]: ./zkvm/benchmarks.md
-
 [waldo]: https://risczero.com/news/waldo
-
 [Zeth]: https://risczero.com/news/zeth-release
-
 [zk-coprocessors]: https://www.risczero.com/blog/a-guide-to-zk-coprocessors-for-scalability
-
 [zkpoex]: https://risczero.com/news/zkpoex
-
 [zkVM]: ./zkvm/zkvm_overview.md

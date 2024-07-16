@@ -25,27 +25,21 @@ To support various use cases, there are a number of functions that can be called
   [`env::read`], [`env::read_slice`], and [`env::stdin`]
 
 [`env::read`]: https://docs.rs/risc0-zkvm/0.19/risc0_zkvm/guest/env/fn.read.html
-
 [`env::read_slice`]: https://docs.rs/risc0-zkvm/0.19/risc0_zkvm/guest/env/fn.read_slice.html
-
 [`env::stdin`]: https://docs.rs/risc0-zkvm/0.19/risc0_zkvm/guest/env/fn.stdin.html
 
 - **Writing private outputs to [host]**<br/>
   [`env::write`], [`env::write_slice`], [`env::stdout`], [`env::stderr`]
 
 [`env::write`]: https://docs.rs/risc0-zkvm/0.19/risc0_zkvm/guest/env/fn.write.html
-
 [`env::write_slice`]: https://docs.rs/risc0-zkvm/0.19/risc0_zkvm/guest/env/fn.write_slice.html
-
 [`env::stdout`]: https://docs.rs/risc0-zkvm/0.19/risc0_zkvm/guest/env/fn.stdout.html
-
 [`env::stderr`]: https://docs.rs/risc0-zkvm/0.19/risc0_zkvm/guest/env/fn.stderr.html
 
 - **Committing public outputs to [journal]**<br/>
   `env::commit`, `env::commit_slice`
 
 [`env::commit`]: https://docs.rs/risc0-zkvm/0.19/risc0_zkvm/guest/env/fn.commit.html
-
 [`env::commit_slice`]: https://docs.rs/risc0-zkvm/0.19/risc0_zkvm/guest/env/fn.commit_slice.html
 
 ## Tools for Debugging & Optimization
@@ -59,7 +53,6 @@ There are also a number of functions available to support with debugging and per
   [`env::log`]
 
 [`env::get_cycle_count`]: https://docs.rs/risc0-zkvm/0.19/risc0_zkvm/guest/env/fn.get_cycle_count.html
-
 [`env::log`]: https://docs.rs/risc0-zkvm/0.19/risc0_zkvm/guest/env/fn.log.html
 
 For more information on optimization & performance, see our pages on [Cryptography Acceleration](acceleration.md) and [Benchmarking](../benchmarks.md).
@@ -85,39 +78,21 @@ If you run into problems, don't be a stranger!
 You can file an issue on [these docs] or the [examples], and we're happy to answer questions on [Discord].
 
 [guest]: /terminology#guest
-
 [guest code]: /terminology#guest
-
 [`guest` module]: https://docs.rs/risc0-zkvm/0.19/risc0_zkvm/guest
-
 [host]: /terminology#host
-
 [`risc0-zkvm` Rust crate]: https://docs.rs/risc0-zkvm
-
 [journal]: /terminology#journal
-
 [method]: /terminology#method
-
 [zkVM Quick Start]: ../quickstart.md
-
 [zkVM Overview]: ../zkvm_overview.md
-
 [Hello World demo]: https://github.com/risc0/risc0/tree/release-0.19/examples/hello-world
-
 [risc0/examples]: https://github.com/risc0/risc0/tree/release-0.19/examples
-
 [guest environment commands]: https://docs.rs/risc0-zkvm/0.19/risc0_zkvm/guest/index.html
-
 [zkVM Application]: ../zkvm_overview.md
-
 [zkVM]: ../zkvm_overview.md
-
 [Bonsai]: ../../bonsai/bonsai-overview.md
-
 [template]: https://github.com/risc0/risc0/tree/release-0.19/templates/rust-starter
-
 [examples]: https://github.com/risc0/risc0/tree/release-0.19/examples
-
 [these docs]: https://github.com/risc0/risc0/issues/new/choose
-
 [Discord]: https://discord.gg/risczero

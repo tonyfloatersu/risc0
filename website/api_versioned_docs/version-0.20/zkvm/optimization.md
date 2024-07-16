@@ -114,7 +114,7 @@ RISC0_PPROF_OUT=ecdsa_verify.pb RISC0_DEV_MODE=true cargo run
 go tool pprof -http 127.0.0.1:8000 ecdsa_verify.pb
 ```
 
-Open <http://127.0.0.1:8000/ui/flamegraph>
+Open [http://127.0.0.1:8000/ui/flamegraph](http://127.0.0.1:8000/ui/flamegraph)
 in your web browser to see the flamegraph.
 
 Although it’s bundled with Go, the `pprof` tool can be used with profiles from
@@ -496,93 +496,48 @@ extensions][SHA
 compute otherwise expensive operations in fewer instruction cycles.
 
 [acceleration]: ./acceleration.md
-
 [AES-NI]: https://en.wikipedia.org/wiki/AES_instruction_set#x86_architecture_processors
-
 [algorithm]: https://briansmith.org/ecc-inversion-addition-chains-01
-
 [alignment]: https://doc.rust-lang.org/reference/type-layout.html#the-alignment-modifiers
-
 [amdhal]: https://en.wikipedia.org/wiki/Amdahl%27s_law
-
 [appendix]: #rv32im-operations-with-cycle-counts
-
 [arithmetic circuits]: /reference-docs/about-arithmetic-circuits
-
 [ARM]: https://en.wikipedia.org/wiki/ARM_architecture_family
-
 [bigint]: https://github.com/risc0/risc0/pull/466
-
 [CBOR]: https://cbor.io/
-
 [continuation segments]: https://www.risczero.com/news/continuations
-
 [CUDA]: https://developer.nvidia.com/cuda-toolkit
-
 [`counts`]: https://github.com/nnethercote/counts/
-
 [ecdsa-flamegraph]: /img/ecdsa-verification-flamegraph.png
-
 [`env::cycle_count()`]: https://docs.rs/risc0-zkvm/0.20/risc0_zkvm/guest/env/fn.cycle_count.html
-
 [`env::read`]: https://docs.rs/risc0-zkvm/0.20/risc0_zkvm/guest/env/fn.read.html
-
 [`env::read_slice`]: https://docs.rs/risc0-zkvm/0.20/risc0_zkvm/guest/env/fn.read_slice.html
-
 [example-ecdsa]: https://github.com/risc0/risc0/tree/release-0.20/examples/ecdsa
-
 [example-waldo]: https://github.com/risc0/risc0/tree/release-0.20/examples/waldo
-
 [Executor]: https://github.com/risc0/risc0/blob/release-0.20/risc0/zkvm/src/host/server/exec/monitor.rs#L30-L39
-
 [flamegraph]: https://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html
-
 [golang-install]: https://go.dev/doc/install
-
 [hibernates]: https://en.wikipedia.org/wiki/Hibernation_\(computing\)
-
 [ilp]: https://en.wikipedia.org/wiki/Instruction-level_parallelism
-
 [image ID]: /terminology#image-id
-
 [L1 cache]: https://en.wikipedia.org/wiki/Cache_hierarchy
-
 [memory paging]: https://en.wikipedia.org/wiki/Memory_paging
-
 [Merkle root]: https://en.wikipedia.org/wiki/Merkle_tree
-
 [op-cycles]: http://ithare.com/infographics-operation-costs-in-cpu-clock-cycles/
-
 [os-page]: https://en.wikipedia.org/wiki/Page_\(computer_memory\)
-
 [perf]: https://perf.wiki.kernel.org/index.php/Main_Page
-
 [perf-book]: https://nnethercote.github.io/perf-book/
-
 [pprof]: https://github.com/google/pprof
-
 [profiles]: https://doc.rust-lang.org/cargo/reference/profiles.html
-
 [profiling]: ./profiling.md
-
 [registers]: https://en.wikipedia.org/wiki/Processor_register
-
 [RISC-V operations]: https://marks.page/riscv/
-
 [RISC-V architecture]: /reference-docs/about-risc-v
-
 [Sampling CPU profilers]: https://nikhilism.com/post/2018/sampling-profiler-internals-introduction/
-
 [SHA extensions]: https://en.wikipedia.org/wiki/Intel_SHA_extensions
-
 [snippet-bonsai-governance]: https://github.com/risc0/risc0/blob/release-0.20/bonsai/examples/governance/methods/guest/src/bin/finalize_votes.rs#L88-L90
-
 [snippet-password-checker]: https://github.com/risc0/risc0/blob/release-0.20/examples/password-checker/methods/guest/src/main.rs#L24
-
 [superscalar]: https://en.wikipedia.org/wiki/Superscalar_processor
-
 [waldo-merkle]: https://github.com/risc0/risc0/blob/release-0.20/examples/waldo/core/src/merkle.rs
-
 [x86]: https://en.wikipedia.org/wiki/X86
-
 [zkVM guest programs]: ./guest-code-101.md

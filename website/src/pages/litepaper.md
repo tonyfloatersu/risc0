@@ -53,7 +53,7 @@ contract simulation_bonsai {
 }
 ```
 
-**Bonsai simplifies non-trivial smart contracts and chains.**
+### Bonsai simplifies non-trivial smart contracts and chains.
 
 Bonsai reduces any smart contract into a single ZK Bonsai network call and moves all the gas-heavy code execution off chain. Smart contracts are no longer bounded by the limitations of EVM and others; instead, they will have full support in Rust and any other programming language that the zkVM will support. This means that a Solidity contract on ETH will be able to write its main logic in Rust on Bonsai and take advantage of non-EVM primitives, Rust crates, and the breadth of functionality of off-chain code execution.
 

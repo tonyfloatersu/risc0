@@ -196,11 +196,7 @@ This can be helpful in understanding the efficiency of various algorithms and th
 - To maximize the number of nodes visualized by [pprof] you can add `-edgefraction 0 -nodefraction 0 -nodecount 100000` when starting [pprof].
 
 [profiling example]: https://github.com/risc0/risc0/tree/release-0.19/examples/profiling
-
 [pprof]: https://github.com/google/pprof
-
 [receipt]: /terminology#receipt
-
 [cycle count]: /terminology#clock-cycles
-
 [execute]: /terminology#execute

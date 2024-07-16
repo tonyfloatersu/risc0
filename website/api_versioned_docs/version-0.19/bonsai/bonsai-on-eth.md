@@ -30,15 +30,10 @@ At a high level, here's how it works:
    3. Sends the journal and image ID in a callback to your application contract.
 
 [Groth16 SNARK]: https://www.risczero.com/news/on-chain-verification
-
 [`BonsaiRelay` contract]: https://github.com/risc0/risc0/blob/release-0.19/bonsai/ethereum/contracts/BonsaiRelay.sol
-
 [`IRiscZeroVerifier` contract]: https://github.com/risc0/risc0/blob/release-0.19/bonsai/ethereum/contracts/IRiscZeroVerifier.sol
-
 [guest program]: /terminology#guest-program
-
 [receipt]: /terminology#receipt
-
 [zk coprocessor]: https://www.risczero.com/blog/a-guide-to-zk-coprocessors-for-scalability
 
 ### Getting Started
@@ -64,7 +59,6 @@ When inputs to your [guest program] and large (e.g. more than a few kilobytes) s
 The [Bonsai Relay SDK] provides a Rust interface for interacting with the Bonsai Relay.
 
 [REST]: https://en.wikipedia.org/wiki/REST
-
 [Bonsai Relay SDK]: https://docs.rs/crate/bonsai-ethereum-relay/latest
 
 ### On-chain Requests
@@ -93,9 +87,6 @@ The [Bonsai SDK] provides support for sending requests to the Bonsai proving ser
 You may also want to check out our [Bonsai Quick Start](quickstart.md) page and/or the [Bonsai Overview](../bonsai).
 
 [Bonsai SDK]: https://docs.rs/bonsai-sdk/latest/bonsai_sdk/
-
 [`IRiscZeroVerifier` interface]: https://github.com/risc0/risc0/blob/release-0.19/bonsai/ethereum/contracts/IRiscZeroVerifier.sol
-
 [`RiscZeroGroth16Verifier` contract]: https://github.com/risc0/risc0/blob/release-0.19/bonsai/ethereum/contracts/groth16/RiscZeroGroth16Verifier.sol
-
 [described above]: #bonsai-relay

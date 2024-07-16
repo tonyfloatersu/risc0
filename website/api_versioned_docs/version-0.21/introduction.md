@@ -23,5 +23,4 @@ program!
 Check out our [Getting Started][docs-getting-started] page.
 
 [docs-getting-started]: ./getting-started.md
-
 [external-risc-zero]: https://risczero.com

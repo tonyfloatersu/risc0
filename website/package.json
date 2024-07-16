@@ -35,7 +35,9 @@
     "settings": {
       "bullet": "-",
       "emphasis": "_",
-      "rule": "-"
+      "rule": "-",
+      "resourceLink": true,
+      "tightDefinitions": true
     },
     "plugins": [
       "remark-preset-lint-consistent",

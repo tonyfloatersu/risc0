@@ -51,21 +51,12 @@ cargo run --release
 ```
 
 [example-chess]: https://github.com/risc0/risc0/tree/release-0.20/examples/chess
-
 [example-ecdsa]: https://github.com/risc0/risc0/tree/release-0.20/examples/ecdsa
-
 [example-hello]: https://github.com/risc0/risc0/tree/release-0.20/examples/hello-world
-
 [example-json]: https://github.com/risc0/risc0/tree/release-0.20/examples/json
-
 [example-waldo]: https://github.com/risc0/risc0/tree/release-0.20/examples/waldo
-
 [example-zkevm]: https://github.com/risc0/risc0/tree/release-0.20/examples/zkevm-demo
-
 [examples-dir]: https://github.com/risc0/risc0/tree/release-0.20/examples
-
 [install]: ./install.md
-
 [waldo-blog]: https://risczero.com/news/waldo
-
 [zkpoex]: https://risczero.com/news/zkpoex

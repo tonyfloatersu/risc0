@@ -63,69 +63,36 @@ In addition to the links in the sidebar, we recommend the following resources:
 - [Study Club]
 
 [about-zkvm]: /api/zkvm
-
 [Bonsai]: https://bonsai.xyz
-
 [composite receipt]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/struct.CompositeReceipt.html
-
 [dev-mode]: /api/generating-proofs/dev-mode
-
 [env::commit()]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/guest/env/fn.commit.html
-
 [env::commit_slice()]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/guest/env/fn.commit_slice.html
-
 [fake receipt]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/enum.InnerReceipt.html#variant.Fake
-
 [GitHub]: https://github.com/risc0/risc0
-
 [Groth16]: /terminology#groth16
-
 [Groth16 receipt]: /terminology#groth16-receipt
-
 [Groth16 Circuit]: /terminology#groth16-circuit
-
 [guest]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/guest
-
 [ImageID]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/struct.SystemState.html
-
 [journal]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/struct.Receipt.html#structfield.journal
-
 [news]: https://risczero.com/news
-
 [open-source]: https://risczero.com/news/open-source
-
 [proof composition]: /terminology#composition
-
 [quickstart]: /api/zkvm/quickstart
-
 [Receipt]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/struct.Receipt.html
-
 [ReceiptClaim]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/struct.ReceiptClaim.html
-
 [Receipt::verify()]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/struct.Receipt.html#method.verify
-
 [Recursion Circuit]: /terminology#recursion-circuit
-
 [RISC-V Circuit]: /terminology#risc-v-circuit
-
 [segment]: /terminology#segment
-
 [SegmentReceipts]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/struct.SegmentReceipts.html
-
 [SegmentReceipt]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/struct.SegmentReceipt.html
-
 [Sequence Diagram]: ./proof-system-sequence-diagram.md
-
 [session]: /terminology#session
-
 [Study Club]: ../studyclub.md
-
 [succinct receipt]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/struct.SuccinctReceipt.html
-
 [ZKP Whitepaper]: https://www.risczero.com/proof-system-in-detail.pdf
-
 [zksummit-10]: https://www.youtube.com/watch?v=wkIBN2CGJdc
-
 [zkVM]: https://docs.rs/risc0-zkvm
-
 [ZK-STARK]: ../reference-docs/about-starks.md

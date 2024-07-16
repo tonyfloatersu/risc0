@@ -39,5 +39,4 @@ In addition to the rv32im circuit, we have built:
 - [From programs to arithmetic circuits](https://www.youtube.com/watch?v=0M0pAubEjz8\&list=PLBJMt6zV1c7Gh9Utg-Vng2V6EYVidTFCC\&index=4): YouTube video from David Wong
 
 [verified]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/struct.Receipt.html#method.verify
-
 [receipt]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/struct.Receipt.html

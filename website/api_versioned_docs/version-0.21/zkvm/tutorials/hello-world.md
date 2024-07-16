@@ -115,23 +115,13 @@ look at the other [examples] for more project ideas that use zero-knowledge
 proofs.
 
 [cargo-risczero]: https://docs.rs/cargo-risczero
-
 [Discord]: https://discord.gg/risczero
-
 [examples]: ../examples.md
-
 [guest]: /terminology#guest-program
-
 [host]: /terminology#host-program
-
 [install]: ../install.md
-
 [issue]: https://github.com/risc0/risc0/issues/new/choose
-
 [journal]: /terminology#journal
-
 [prover]: /terminology#prover
-
 [receipt]: /terminology#receipt
-
 [seal]: /terminology#seal

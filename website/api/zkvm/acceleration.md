@@ -59,27 +59,15 @@ extensions][SHA
 compute otherwise expensive operations in fewer instruction cycles.
 
 [AES-NI]: https://en.wikipedia.org/wiki/AES_instruction_set#x86_architecture_processors
-
 [bigint]: https://github.com/risc0/risc0/pull/466
-
 [cargo-patch]: https://doc.rust-lang.org/cargo/reference/overriding-dependencies.html#the-patch-section
-
 [curve25519-dalek]: https://github.com/risc0/curve25519-dalek/tree/risczero
-
 [ecdsa]: https://github.com/risc0/risc0/tree/main/examples/ecdsa
-
 [ecdsa-patched]: https://github.com/risc0/risc0/blob/main/examples/ecdsa/methods/guest/Cargo.toml#L13-L18
-
 [field-mul]: https://github.com/risc0/RustCrypto-elliptic-curves/compare/k256/v0.13.1..k256/v0.13.1-risczero.1#diff-ab10e01be1d99a874f90c9a6143bb1c64f37e04dcb220b5ab50b9273d99e0a0cR176-R179
-
 [git-dep]: https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html#specifying-dependencies-from-git-repositories
-
 [k256-diff]: https://github.com/risc0/RustCrypto-elliptic-curves/compare/k256/v0.13.1..k256/v0.13.1-risczero.1
-
 [RustCrypto-crypto-bigint]: https://github.com/risc0/RustCrypto-crypto-bigint/tree/risczero
-
 [RustCrypto-hashes]: https://github.com/risc0/RustCrypto-hashes/tree/risczero
-
 [RustCrypto-elliptic-curves]: https://github.com/risc0/RustCrypto-elliptic-curves/tree/risczero
-
 [SHA extensions]: https://en.wikipedia.org/wiki/Intel_SHA_extensions

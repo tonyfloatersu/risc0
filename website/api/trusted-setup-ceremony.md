@@ -55,33 +55,18 @@ Please exercise good judgment about whether a missing or edited attestation repr
 We used the open-source tools [p0tion] and [DefinitelySetup] to run our ceremony, and our ceremony was coordinated with the [PSE] team. This gave us tools that had been battle-tested by prior ceremonies, and moreover, by using tools written by an external team, we put substantial limits on our own ability to maliciously manipulate the ceremony software.
 
 [audits-readme]: https://github.com/risc0/rz-security/blob/main/audits/README.md
-
 [DefinitelySetup]: https://github.com/privacy-scaling-explorations/DefinitelySetup
-
 [install-circom]: https://docs.circom.io/getting-started/installation/
-
 [kobi-bad-ceremony-list]: https://twitter.com/kobigurk/status/1782502969453494530
-
 [p0tion]: https://github.com/privacy-scaling-explorations/p0tion
-
 [p0tion-config]: https://github.com/risc0/risc0/blob/d4e427283027c28b38b8eda1562e8e0e68d1b0e2/compact_proof/groth16/p0tionConfig.json
-
 [powers-of-tau-hez-23]: https://storage.googleapis.com/zkevm/ptau/powersOfTau28_hez_final_23.ptau
-
 [powers-of-tau-hez-23-our-mirror]: https://risc0-artifacts.s3.us-west-2.amazonaws.com/tsc/2024-04-04/powersOfTau28_hez_final_23.ptau
-
 [PSE]: https://pse.dev
-
 [pse-risc0-ceremony]: https://ceremony.pse.dev/projects/RISC%20Zero%20STARK-to-SNARK%20Prover
-
 [r1cs-file]: https://risc0-artifacts.s3.us-west-2.amazonaws.com/tsc/2024-04-04/stark_verify.r1cs
-
 [risc0-circom-library]: https://github.com/risc0/risc0/blob/d4e427283027c28b38b8eda1562e8e0e68d1b0e2/compact_proof/groth16/risc0.circom
-
 [snarkjs]: https://github.com/iden3/snarkjs
-
 [stark-verify-circom]: https://github.com/risc0/risc0/blob/d4e427283027c28b38b8eda1562e8e0e68d1b0e2/compact_proof/groth16/stark_verify.circom
-
 [zkey-mirror]: https://risc0-artifacts.s3.us-west-2.amazonaws.com/tsc/2024-04-04/stark_verify_final.zkey
-
 [zkey-compressed]: https://risc0-artifacts.s3.us-west-2.amazonaws.com/zkey/2024-05-17.1/stark_verify_final.zkey.gz

@@ -45,27 +45,15 @@ Many of these resources assume you are developing without the aid of Bonsai. Her
 - You might see our zkVM documentation refer to sessions, and segments. These code-level concepts are related to [continuations](https://www.risczero.com/news/continuations), a feature that lets us design our zkVM program proof work to be parallelizable and not limited by the size of the program to be proven. Bonsai takes advantage of this feature to parallelize proofs about off-chain computation. If you're reading about these in zkVM documentation, you're almost certainly looking at host-side details that you don't need in order to write provable code.
 
 [Bonsai]: bonsai-overview.md
-
 [Discord]: https://discord.gg/risczero
-
 [Rust]: https://www.rust-lang.org/
-
 [alloy]: https://github.com/alloy-rs
-
 [committing]: /terminology#commit
-
 [foundry-template]: https://github.com/risc0/bonsai-foundry-template
-
 [guest]: /terminology#guest
-
 [host]: /terminology#host
-
 [journal]: /terminology#journal
-
 [receipt]: /terminology#receipt
-
 [rust-learn]: https://www.rust-lang.org/learn
-
 [term-guest-program]: /terminology#guest-program
-
 [term-zkvm]: /terminology#zero-knowledge-virtual-machine-zkvm

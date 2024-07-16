@@ -51,7 +51,7 @@ To visualize the profile using `pprof`, run:
 go tool pprof -http=127.0.0.1:8000 profile.pb
 ```
 
-Then navigate to <http://localhost:8000> in your browser.
+Then navigate to [http://localhost:8000](http://localhost:8000) in your browser.
 
 You can find much more information about how to use `pprof` in the [official
 pprof documentation][pprof].
@@ -72,7 +72,7 @@ Fibonacci number using all the above methods, and finally commits the answer
 back to the host.
 
 Below is the example [flamegraph] you will see by opening
-<http://localhost:8000/ui/flamegraph>,
+[http://localhost:8000/ui/flamegraph](http://localhost:8000/ui/flamegraph),
 after running the [steps above](#usage).
 
 ![flamegraph of Fibonacci profiling example](/img/profiling_flamegraph.png)
@@ -101,17 +101,10 @@ In zkVM execution, executions are generally short and all execution is synchrono
 <!-- prettier-ignore-end -->
 
 [cycle count]: /terminology#clock-cycles
-
 [example-profiling]: https://github.com/risc0/risc0/tree/release-0.20/examples/profiling
-
 [flamegraph]: https://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html
-
 [golang-install]: https://go.dev/doc/install
-
 [install]: ./install.md
-
 [perf]: https://perf.wiki.kernel.org/index.php/Main_Page
-
 [pprof]: https://github.com/google/pprof
-
 [profiler]: https://nikhilism.com/post/2018/sampling-profiler-internals-introduction/

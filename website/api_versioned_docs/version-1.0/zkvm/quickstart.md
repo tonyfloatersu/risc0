@@ -114,29 +114,16 @@ proportional to the number of cycles and segments used.
 > _That's all it takes to build and run a minimal RISC Zero application._
 
 [Bonsai]: ../generating-proofs/remote-proving.md
-
 [dev-mode]: ../generating-proofs/dev-mode.md
-
 [feature flags]: https://github.com/risc0/risc0#feature-flags
-
 [guest]: /terminology#guest-program
-
 [hello-world]: ./tutorials/hello-world.md
-
 [host]: /terminology#host-program
-
 [install Rust]: https://doc.rust-lang.org/cargo/getting-started/installation.html
-
 [journal]: /terminology#journal
-
 [prover]: /terminology#prover
-
 [receipt]: /terminology#receipt
-
 [seal]: /terminology#seal
-
 [tutorial-step-2]: tutorials/hello-world.md#step-2-host-share-private-data-as-input-with-the-guest
-
 [tutorial-step-3]: tutorials/hello-world.md#step-3-guest-read-input-and-commit-output
-
 [tutorial-step-4]: tutorials/hello-world.md#step-4-host-generate-a-receipt-and-read-its-journal-contents
