@@ -10,7 +10,7 @@
   },
   "[markdown]": {
     "editor.defaultFormatter": "unifiedjs.vscode-remark",
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true
   },
   "[javascript][javascriptreact][typescript][typescriptreact][github-actions-workflow][json][css]": {
     "editor.defaultFormatter": "biomejs.biome",

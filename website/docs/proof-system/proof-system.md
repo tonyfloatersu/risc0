@@ -17,12 +17,8 @@ execution. These claims are summarized in the [ReceiptClaim].
 
 A [Receipt] can take four main forms.
 
-1. A **[composite receipt]** is a vector of [ZK-STARK]s, one for each [segment].
-   Segments & segment proofs are constructed using the [RISC-V Circuit].
-2. A **[succinct receipt]** is a single [ZK-STARK] proving an entire [Session].
-   A succinct receipt is formed by aggregating the proofs from a composite
-   receipt. This is accomplished using the [Recursion Circuit]. Users can also
-   aggregate multiple succinct receipts into a single succinct receipt using
+1. A **[composite receipt]** is a vector of [ZK-STARK]s, one for each [segment]. Segments & segment proofs are constructed using the [RISC-V Circuit].
+2. A **[succinct receipt]** is a single [ZK-STARK] proving an entire [Session]. A succinct receipt is formed by aggregating the proofs from a composite receipt. This is accomplished using the [Recursion Circuit]. Users can alsoaggregate multiple succinct receipts into a single succinct receipt using
    [proof composition].
 3. A **[Groth16 receipt]** is a single [Groth16] proof for an entire [Session].
    A Groth16Receipt is formed by verifying a succinct receipt using RISC Zero's
@@ -74,7 +70,6 @@ In addition to the links in the sidebar, we recommend the following resources:
 [Groth16 receipt]: /terminology#groth16-receipt
 [Groth16 Circuit]: /terminology#groth16-circuit
 [guest]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/guest
-[ImageID]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/struct.SystemState.html
 [journal]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/struct.Receipt.html#structfield.journal
 [news]: https://risczero.com/news
 [open-source]: https://risczero.com/news/open-source
@@ -86,8 +81,6 @@ In addition to the links in the sidebar, we recommend the following resources:
 [Recursion Circuit]: /terminology#recursion-circuit
 [RISC-V Circuit]: /terminology#risc-v-circuit
 [segment]: /terminology#segment
-[SegmentReceipts]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/struct.SegmentReceipts.html
-[SegmentReceipt]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/struct.SegmentReceipt.html
 [Sequence Diagram]: ./proof-system-sequence-diagram.md
 [session]: /terminology#session
 [Study Club]: ../studyclub.md

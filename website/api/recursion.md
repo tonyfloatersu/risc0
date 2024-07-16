@@ -147,7 +147,6 @@ The final step in the recursion process is `compress()`, which outputs a [Groth1
 [proof system]: /proof-system/proof-system-sequence-diagram
 [prove_with_opts]: https://docs.rs/risc0-zkvm/1.0/risc0_zkvm/trait.Prover.html#method.prove_with_opts
 [Prover]: https://docs.rs/risc0-zkvm/latest/risc0_zkvm/trait.Prover.html#method.prove_with_opts
-[Receipt]: https://docs.rs/risc0-zkvm/latest/risc0_zkvm/struct.Receipt.html
 [receipt claim]: /terminology#receipt-claim
 [RISC Zero Verifier Contract]: blockchain-integration/contracts/verifier.md
 [SuccinctReceipt]: https://docs.rs/risc0-zkvm/latest/risc0_zkvm/struct.SuccinctReceipt.html

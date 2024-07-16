@@ -1,7 +1,7 @@
 # The RISC Zero STARK Protocol
 
-_The implementation in code for the RISC Zero STARK prover can be seen [here](https://github.com/risc0/risc0/blob/v0.18.0/risc0/zkp/src/prove/prover.rs).
-In this document, we present an overview to the RISC Zero STARK protocol, as well as a sequence diagram and a detailed description below. The [STARK by Hand](stark-by-hand.md) explainer and the [RISC Zero ZKP Whitepaper][ZKP Whitepaper] are good companions to this document._
+*The implementation in code for the RISC Zero STARK prover can be seen [here](https://github.com/risc0/risc0/blob/v0.18.0/risc0/zkp/src/prove/prover.rs).
+In this document, we present an overview to the RISC Zero STARK protocol, as well as a sequence diagram and a detailed description below. The [STARK by Hand](stark-by-hand.md) explainer and the [RISC Zero ZKP Whitepaper][ZKP Whitepaper] are good companions to this document.*
 
 ## Overview
 
@@ -29,8 +29,8 @@ This setup can be repeated by anyone with access to the binary file, in order to
 
 ### Main Trace & Auxiliary Trace
 
-After the setup phase, the Prover executes the binary in the zkVM, computes a Low-Degree Extension on each column, and commits the _Extended Main Execution Trace_.
-Then, the prover computes and commits the _Extended Auxiliary Execution Trace_ which depends on verifier randomness.
+After the setup phase, the Prover executes the binary in the zkVM, computes a Low-Degree Extension on each column, and commits the *Extended Main Execution Trace*.
+Then, the prover computes and commits the *Extended Auxiliary Execution Trace* which depends on verifier randomness.
 
 Compared to [ethSTARK], our protocol adds an additional round of interaction to support constraints beyond basic AIR constraints.
 Using constraints that may span both the main trace and the auxiliary trace, we proceed with [DEEP-ALI & FRI] as described in [ethSTARK].
@@ -43,12 +43,10 @@ We use this Auxiliary Execution Trace to support:
    The permutation argument is currently implemented as a grand product accumulator argument, as in [PLONK](https://eprint.iacr.org/2019/953.pdf).
    We plan to change this to a [log derivative] accumulator argument in the next version of the circuit.<br/>
    Here, operations corresponding to memory are committed to the main trace both in the original ordering and the permuted ordering, and grand product accumulators are committed in the auxiliary trace.
-
 1. A lookup argument for range checks<br/>
    The lookup argument is currently implemented using the approach described in [PLOOKUP].
    We plan to change this to a [log derivative] accumulator argument in the next version of the circuit. <br/>
    Here, the tables and the witness are committed in the main trace, and grand product accumulators are committed in the auxiliary trace.
-
 1. A big integer accelerator to enable [fast cryptographic operations][acceleration]<br/>
    The bigint accelerator implements multiplication of `a` and `b` by asking the host to provide the product `c` as non-deterministic advice. Then, the verifier provides randomness `r`, and the constraints enforce that when `a`, `b`, and `c` are interpreted as polynomials, `a(r) * b(r) == c(r)`. <br/>
    Here, `a`, `b`, and `c` are committed in the main trace, and the evaluations at `r` are committed in the auxiliary trace.
@@ -120,7 +118,6 @@ For a more formal articulation of the protocol, refer to the [ZKP Whitepaper].
 ### DEEP-ALI (part 1)
 
 - The Prover uses the `constraint mixing parameter`, the `Trace Polynomials`, and the `Rule Checking Polynomials` to construct a few `Low Degree Validity Polynomials.` The details are as follows:
-
   - By writing $k$ publicly known `Rule Checking Polynomials`, $R_0, R_1, ..., R_{k-1}$, in terms of the private `Trace Polynomials`, the Prover generates $k$ `Constraint Polynomials`, $C_j(x)$.
     - The key point about these polynomials is that for each of the $k$ rules and each input $z$ that's associated with the trace, $C_j(z)$ will return 0 if the trace "passes the test," so to speak.
   - Using the `constraint mixing parameter` $\alpha$, the Prover combines the `Constraint Polynomials`, $C_j$ into a single `Mixed Constraint Polynomial`, $C$, by computing $C(x)=\alpha^0C_0(x)+\ldots+\alpha^{k-1}C_{k-1}(x).$
@@ -166,4 +163,3 @@ Thanks for reading! If you have questions or feedback, we'd love to hear from yo
 [STARK]: ../reference-docs/about-starks.md
 [Winterfell]: https://github.com/facebook/winterfell
 [ZKP Whitepaper]: https://dev.risczero.com/proof-system-in-detail.pdf
-[zkVM]: https://docs.rs/risc0-zkvm/*/risc0_zkvm/

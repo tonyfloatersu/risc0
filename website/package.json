@@ -11,7 +11,7 @@
     "deploy": "docusaurus deploy",
     "docusaurus": "docusaurus",
     "fmt": "prettier . --write",
-    "fmt-markdown": "remark . --output",
+    "fmt-markdown": "remark docs --output",
     "lint": "prettier . --check && python ./link-version-check.py",
     "serve": "docusaurus serve",
     "start": "docusaurus start",
@@ -32,12 +32,26 @@
     ]
   },
   "remarkConfig": {
+    "settings": {
+      "bullet": "-",
+      "emphasis": "_"
+    },
     "plugins": [
       "remark-preset-lint-consistent",
       "remark-preset-lint-recommended",
+      "remark-preset-lint-markdown-style-guide",
       ["remark-lint-heading-style", false],
       ["remark-lint-no-shortcut-reference-link", false],
-      ["remark-lint-no-undefined-references", false]
+      ["remark-lint-no-undefined-references", false],
+      ["remark-lint-maximum-line-length", false],
+      ["remark-lint-definition-case", false],
+      ["remark-lint-heading-increment", false],
+      ["remark-lint-list-item-spacing", false],
+      ["remark-lint-no-heading-punctuation", false],
+      ["remark-lint-ordered-list-marker-value", false],
+      ["remark-lint-unordered-list-marker-style", false],
+      ["remark-lint-maximum-heading-length", false],
+      ["remark-lint-emphasis-marker", "_"]
     ]
   },
   "dependencies": {
