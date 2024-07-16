@@ -114,7 +114,7 @@ RISC0_PPROF_OUT=ecdsa_verify.pb RISC0_DEV_MODE=true cargo run
 go tool pprof -http 127.0.0.1:8000 ecdsa_verify.pb
 ```
 
-Open [http://127.0.0.1:8000/ui/flamegraph](http://127.0.0.1:8000/ui/flamegraph)
+Open [127.0.0.1:8000/ui/flamegraph](http://127.0.0.1:8000/ui/flamegraph)
 in your web browser to see the flamegraph.
 
 Although it’s bundled with Go, the `pprof` tool can be used with profiles from

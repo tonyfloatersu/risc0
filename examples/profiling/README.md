@@ -45,7 +45,7 @@ To visualize the profile using `pprof`, run:
 go tool pprof -http=127.0.0.1:8000 profile.pb
 ```
 
-Then navigate to [http://localhost:8000](http://localhost:8000) in your browser.
+Then navigate to [localhost:8000](localhost:8000) in your browser.
 
 You can find much more information about how to use `pprof` in the [official pprof documentation].
 
@@ -59,7 +59,7 @@ There are three different Fibonacci sequence calculation methods provided in thi
 
 The guest code reads the number of iterations from the host, computes the Fibonacci number using all the above methods, and finally commits the answer back to the host.
 
-Below is the example [flamegraph] you will see by opening [http://localhost:8000/ui/flamegraph](http://localhost:8000/ui/flamegraph), after running the [steps above](#usage).
+Below is the example [flamegraph] you will see by opening [localhost:8000/ui/flamegraph](localhost:8000/ui/flamegraph), after running the [steps above](#usage).
 
 ![flamegraph of Fibonacci profiling example](./profiling_flamegraph.png)
 
