@@ -129,27 +129,41 @@ impl TryFrom<ProofJson> for Seal {
 /// Groth16 Proof encoded as JSON.
 #[derive(Serialize, Deserialize, Debug)]
 pub struct ProofJson {
-    pi_a: Vec<String>,
-    pi_b: Vec<Vec<String>>,
-    pi_c: Vec<String>,
-    protocol: Option<String>,
-    curve: Option<String>,
+    /// Proof 'a'
+    pub pi_a: Vec<String>,
+    /// Proof 'b'
+    pub pi_b: Vec<Vec<String>>,
+    /// Proof 'c'
+    pub pi_c: Vec<String>,
+    /// Protocol
+    pub protocol: Option<String>,
+    /// Curve
+    pub curve: Option<String>,
 }
 
 /// Groth16 Verifying Key encoded as JSON.
 #[derive(Serialize, Deserialize, Debug)]
 pub struct VerifyingKeyJson {
-    protocol: String,
-    curve: String,
+    /// Protocol
+    pub protocol: String,
+    /// Curve
+    pub curve: String,
+    /// Number of Public Inputs
     #[serde(rename = "nPublic")]
-    n_public: u32,
-    vk_alpha_1: Vec<String>,
-    vk_beta_2: Vec<Vec<String>>,
-    vk_gamma_2: Vec<Vec<String>>,
-    vk_delta_2: Vec<Vec<String>>,
-    vk_alphabeta_12: Vec<Vec<Vec<String>>>,
+    pub n_public: u32,
+    /// alpha
+    pub vk_alpha_1: Vec<String>,
+    /// beta
+    pub vk_beta_2: Vec<Vec<String>>,
+    /// gamma
+    pub vk_gamma_2: Vec<Vec<String>>,
+    /// delta
+    pub vk_delta_2: Vec<Vec<String>>,
+    /// alpha-beta
+    pub vk_alphabeta_12: Vec<Vec<Vec<String>>>,
+    /// ic
     #[serde(rename = "IC")]
-    ic: Vec<Vec<String>>,
+    pub ic: Vec<Vec<String>>,
 }
 
 impl VerifyingKeyJson {
