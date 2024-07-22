@@ -158,7 +158,7 @@ impl Verifier {
 
 /// Verifying key for Groth16 proofs.
 #[derive(Clone, Debug, Serialize, Deserialize)]
-pub struct Fr(#[serde(with = "serde_ark")] pub(crate) ark_bn254::Fr);
+pub struct Fr(#[serde(with = "serde_ark")] pub ark_bn254::Fr);
 
 impl Digestible for Fr {
     /// Compute a tagged hash of the [Fr] value.
