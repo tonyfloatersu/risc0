@@ -28,12 +28,12 @@ pub struct MerkleTreeProver<H: Hal> {
     params: MerkleTreeParams,
 
     // The retained matrix of values
-    matrix: H::Buffer<H::Elem>,
+    pub matrix: H::Buffer<H::Elem>,
 
     // A heap style array where node N has children 2*N and 2*N+1.  The size of
     // this buffer is (1 << (layers + 1)) and begins at offset 1 (zero is unused
     // to make indexing nicer).
-    nodes: H::Buffer<Digest>,
+    pub nodes: H::Buffer<Digest>,
 
     // The root value
     root: Digest,
