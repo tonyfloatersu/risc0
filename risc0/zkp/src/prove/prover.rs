@@ -128,6 +128,11 @@ impl<'a, H: Hal> Prover<'a, H> {
         // DEEP-ALI paper for details on the construction of the check_poly.
         let check_poly = self.hal.alloc_elem("check_poly", ext_size * domain);
 
+        println!(
+            "cycles: {}, inv_rate: {}, ext_size: {}",
+            self.cycles, INV_RATE, ext_size
+        );
+
         let groups: Vec<&_> = self
             .groups
             .iter()
@@ -157,6 +162,10 @@ impl<'a, H: Hal> Prover<'a, H> {
         // by) are in Fp, FpExt values act like simple vectors of Fp for the
         // purposes of interpolate/evaluate.
         self.hal.batch_interpolate_ntt(&check_poly, ext_size);
+
+        // Hang NOTE: see https://dev.risczero.com/proof-system-in-detail.pdf
+        // p28 footnote 31 for why mix validity poly being at most 4d
+        println!("check_poly size: {}", check_poly.size());
 
         // The next step is to convert the degree 4*n check polynomial into 4 degree n
         // polynomials so that f(x) = g0(x^4) + g1(x^4) x + g2(x^4) x^2 + g3(x^4)
