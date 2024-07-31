@@ -136,6 +136,12 @@ where
             let mut accum = vec![BabyBearElem::INVALID; steps * CIRCUIT.accum_size()];
             nvtx::range_pop!();
 
+            println!(
+                "accum (elts): {}, accum_size (elts): {}",
+                accum.len(),
+                CIRCUIT.accum_size()
+            );
+
             // Add random noise to end of accum
             nvtx::range_push!("noise");
             let mut rng = thread_rng();

@@ -15,6 +15,7 @@
 #[cfg(test)]
 mod tests;
 
+use core::mem::size_of_val;
 use std::collections::VecDeque;
 
 use anyhow::{anyhow, bail, ensure, Result};
@@ -797,6 +798,20 @@ impl Segment {
             preflight.pager.commit_step();
         }
         preflight.post_steps()?;
+
+        println!(
+            "pre trace cycles: {}, body trace cycles: {}",
+            preflight.trace.pre.cycles.len(),
+            preflight.trace.body.cycles.len()
+        );
+
+        println!(
+            "pre trace cycle size (bytes): {}, pre trace memory txn size (bytes): {}, body trace cycle size (bytes): {}, body trace memory txn size (bytes): {}",
+            size_of_val(&*preflight.trace.pre.cycles),
+            size_of_val(&*preflight.trace.pre.txns),
+            size_of_val(&*preflight.trace.body.cycles),
+            size_of_val(&*preflight.trace.body.txns),
+        );
 
         Ok(preflight.trace)
     }

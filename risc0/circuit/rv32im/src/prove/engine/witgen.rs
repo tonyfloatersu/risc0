@@ -19,7 +19,7 @@ use risc0_zkp::{
         baby_bear::{BabyBear, BabyBearElem, BabyBearExtElem},
         Elem as _,
     },
-    hal::Hal,
+    hal::{Buffer, Hal},
     ZK_CYCLES,
 };
 
@@ -116,6 +116,15 @@ where
         hal.eltwise_zeroize_elem(&data);
         hal.eltwise_zeroize_elem(&io);
         nvtx::range_pop!();
+
+        println!(
+            "steps: {steps}, ctrl (elts): {}, ctrl_size (elts): {}, data (elts): {}, data_size (elts): {}, io (elts): {}",
+            ctrl.size(),
+            CIRCUIT.ctrl_size(),
+            data.size(),
+            CIRCUIT.data_size(),
+            io.size()
+        );
 
         Self {
             steps,
